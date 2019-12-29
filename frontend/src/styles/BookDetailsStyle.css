@@ -1,0 +1,20 @@
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.empty {
+    text-align: center;
+}
+
+.empty .icon {
+    height: 200px;
+    width: 200px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.empty .icon:hover {
+    height: 230px;
+    width: 230px;
+}
