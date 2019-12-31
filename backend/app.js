@@ -8,7 +8,7 @@ const app = express();
 
 app.use(cors());
 
-mongoose.connect("USE YOUR OWN MONGO DB CONFIGURATION HERE", {
+mongoose.connect("USE YOUR OWN MONGO DB CONFIG HERE", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
